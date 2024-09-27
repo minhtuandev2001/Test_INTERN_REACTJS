@@ -1,0 +1,70 @@
+.App {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+.title {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.group p:nth-child(1) {
+  min-width: 15rem;
+}
+
+.group input {
+  border: 0.5px solid #818181;
+  border-radius: 4px;
+}
+.restart {
+  padding: 7px 20px;
+  background-color: rgb(206, 206, 206);
+  border-radius: 4px;
+}
+.board_game {
+  position: relative;
+  width: 100%;
+  min-width: 376px;
+  height: calc(100vh - 250px);
+  border: 1px solid #000;
+  margin-top: 5px;
+}
+.ball1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 1px solid #000;
+  line-height: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all;
+}
+.header {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.group_button {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+.noti {
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 400;
+  color: red;
+}
